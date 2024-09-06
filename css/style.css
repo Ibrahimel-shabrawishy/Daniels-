@@ -1,0 +1,759 @@
+
+:root
+{
+    --default_font:Montserrat, sans-serif;
+    --bg-section:#F7F7F7;
+    --animation-duration:400ms;
+    --bg-icons:#EEEEEE;
+}
+
+body
+{
+    font-family: var(--default_font);
+}
+
+
+/*? =====================repeated code======================= */
+
+.fw-800
+{
+font-weight: 800;
+}
+
+.fs-18
+{
+    font-size: 1.125rem;
+}
+.fs-13
+{
+    font-size: .8125rem;
+}
+.fs-14
+{
+    font-size: .875rem;
+}
+.fs-15
+{
+    font-size: .9375rem;
+}
+
+.fs-50
+{
+    font-size: 50px;
+}
+.fs-60
+{
+    font-size: 60px;
+}
+.fs-30
+{
+    font-size: 1.875rem;
+}
+.w-40
+{
+    width:40%;
+}
+.w-60
+{
+    width:60%;
+}
+.w-30
+{
+    width:30%;
+}
+.w-80
+{
+    width:80%;
+}
+
+.w-5
+{
+    width:5%;
+}
+
+.text-span
+{
+    color:#999;
+}
+
+.text-p
+{
+    color:#748182;
+}
+.bg-section
+{
+    background-color:var(--bg-section);
+}
+
+.bg-icons
+{
+    background-color: var(--bg-icons);
+}
+
+.fw-900
+{
+    font-weight: 900;
+}
+
+.card-bg
+{
+    background-color:#5B5B5B;
+}
+
+
+
+
+
+
+
+
+/*? =====================Navbar section========================= */
+
+.nav-underline {
+    --bs-nav-underline-gap: 2rem;
+    
+ 
+  
+  }
+
+  .nav-underline .nav-link:hover:not(.active) {
+    border:none;
+  }
+
+
+
+
+.nav-item .nav-link {
+    width:75%;
+display: flex;
+justify-content: center;
+ 
+  }
+
+
+
+   /*? ==================================Home Section===================================== */
+
+
+
+.animation h1::after
+{
+    content:"";
+    animation: typing 7s infinite;
+    font-size: 60px;
+    font-weight: 400;
+    color:#fff;
+}
+
+@keyframes typing
+{
+0%
+{
+    content: "|";
+}
+
+
+
+2%
+{
+    content:"D|";
+}
+4%
+{
+    content:"De|";
+}
+6%
+{
+    content:"Des|";
+}
+8%
+{
+    content:"Desi|";
+}
+10%
+{
+    content:"Desig|";
+}
+
+12%
+{
+    content:"Design|";
+}
+
+14%
+{
+    content:"Designe|";
+}
+
+16%
+{
+    content:"Designer|";
+}
+18%
+{
+    content:"Designe|";
+}
+
+20%
+{
+    content:"Design|";
+}
+
+
+22%
+{
+    content:"Desig|";
+}
+
+
+24%
+{
+    content:"Desi|";
+}
+
+26%
+{
+    content:"Des|";
+}
+
+28%
+{
+    content:"De|";
+}
+
+30%
+{
+    content:"D|";
+}
+32%
+{
+    content:"|";
+}
+
+33%{
+
+    content:"L|";
+}
+35%
+{
+    content:"La|";
+}
+37%
+{
+    content:"Lar|";
+}
+39%
+{
+    content:"Larr|";
+}
+
+
+41%
+{
+    content:"Larry|";
+}
+
+43%
+{
+    content:"Larry D|";
+}
+45%
+{
+    content:"Larry Da|";
+}
+47%
+{
+    content:"Larry Dan|";
+}
+
+49%
+{
+    content:"Larry Dani|";
+}
+
+49%
+{
+    content:"Larry Dani|";
+}
+
+51%
+{
+    content:"Larry Danie|";
+}
+
+53%
+{
+    content:"Larry Daniel|";
+}
+55%
+{
+    content:"Larry Daniels|";
+}
+
+56%
+{
+    content:"Larry Daniel|";
+}
+
+57%
+{
+    content:"Larry Danie|";
+}
+58%
+{
+    content:"Larry Dani|";
+}
+
+59%
+{
+    content:"Larry Dan|";
+}
+
+60%
+{
+    content:"Larry Da|";
+}
+
+61%
+{
+    content:"Larry D|";
+}
+
+
+62%
+{
+    content:"Larry|";
+}
+
+63%
+{
+    content:"Larr|";
+}
+
+64%
+{
+    content:"Lar|";
+}
+
+65%
+{
+    content:"La|";
+}
+
+
+66%
+{
+    content:"L|";
+}
+
+
+
+67%
+{
+    content:"|";
+}
+
+68%
+{
+    content:"D|";
+}
+
+
+70%
+{
+    content:"De|";
+}
+
+
+72%
+{
+    content:"Dev|";
+}
+
+
+
+74%
+{
+    content:"Deve|";
+}
+
+
+76%
+{
+    content:"Devel|";
+}
+
+
+78%
+{
+    content:"Develo|";
+}
+80%
+{
+    content:"Develop|";
+}
+82%
+{
+    content:"Develope|";
+}
+
+
+84%
+{
+    content:"Developer|";
+}
+86%
+{
+    content:"Develope|"; 
+}
+88%
+{
+    content:"Develop|"; 
+}
+
+
+
+90%
+{
+    content:"Develo|"; 
+}
+
+92%
+{
+    content:"Devel|"; 
+}
+
+
+94%
+{
+    content:"Deve|"; 
+}
+
+96%
+{
+    content:"Dev|"; 
+}
+
+
+98%
+{
+    content:"De|"; 
+}
+99%
+{
+    content:"D|"; 
+}
+
+100%
+{
+    content:"|"; 
+}
+
+
+
+
+
+
+}
+
+.home
+{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7) ),url(../Images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+/* ?============================About Section============================= */
+
+.about-img img
+{
+    padding:0 0 0 30px;
+
+}
+
+.about-img::after
+{
+    content:"";
+    position: absolute;
+    width:80%;
+    height:80%;
+    left:0;
+    bottom:-30px;
+    background-image: url(../Images/dots.png);
+    z-index: -1;
+    background-repeat: repeat;
+}
+
+
+
+
+.progress
+{
+    height:25px;
+}
+
+.btn-about
+{
+    transition: background-color 100ms ease;
+
+}
+
+
+.btn
+{
+border:1px solid black;
+padding-inline: 30px;
+padding-block:10px;
+}
+
+.btn-one:hover
+{
+background-color: transparent;
+color:#000;
+}
+
+.btn-two:hover
+{
+    background-color: #000;
+    color:#fff;
+}
+
+
+/* ?==============================Services section================================================ */
+
+.title h3::before
+{
+    content:"";
+    position: absolute;
+   background-image: url(../Images/dots.png);
+   width:190px;
+   height:30px;
+top:20px;
+z-index: -1;
+ 
+}
+
+
+
+
+
+
+
+
+
+.icons-services
+{
+    background-color: var(--bg-icons);
+    padding:15px;
+    border-radius: 50%;
+    transition: background-color var(--animation-duration) ease , color var(--animation-duration) ease;
+}
+
+
+.inner:hover .icons-services
+{
+    background-color: #000;
+    color:#fff;
+}
+
+
+
+
+/* ?=================================portfolio section============================================= */
+
+.portfolio_layer
+{
+
+    inset: 10px 5px 5px;
+    background-color: #fffa;
+    gap:10px;
+    opacity: 0;
+    transition: opacity var(--animation-duration) ease;
+    
+
+}
+.innerAll:hover .portfolio_layer
+{
+    opacity: 1;
+    
+}
+.innerAll:hover .portfolio_layer>*
+{
+    margin:0;
+}
+
+
+.innerAll:hover .icons-portfolio i
+{
+    background-color: #000;
+    color:#fff;
+    padding:10px;
+    border-radius: 50%;
+}
+.innerAll .icons-portfolio i:hover 
+{
+    background-color: transparent;
+    color:#000;
+    border:1px solid #000;
+
+}
+
+
+
+.portfolio_layer>*
+{
+    transition: var(--animation-duration) ease;
+}
+
+.portfolio_layer h6
+{
+    margin-bottom: 20px;
+    font-size:12px;
+    font-weight: 700;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+}
+
+
+.icons-portfolio
+{
+    margin-top:20px;
+}
+
+
+
+
+
+/* ?----------------------------------carousel Section---------------------------------------------------- */
+
+
+
+
+
+
+.carousel-indicators  [data-bs-target]
+{
+background-color:#869791;
+width:10px;
+height:10px;
+border-radius: 50%;
+background-repeat: no-repeat;
+}
+
+.bg-carousel
+{
+    background-color: #F7F7F7;
+}
+
+
+
+
+/* *================================Our Team Section========================================== */
+
+
+.layer-card
+{
+    background-color:hsla(40, 75%, 98%, 0.44);
+    position: absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    opacity:0;
+    transition:transform var(--animation-duration) ease;
+    inset: 5px 5px 5px;
+
+}
+
+.card img
+{
+    transition: transform 0.5s ease;
+}
+
+.card:hover img
+{
+    transform: scale(1.1);
+   
+}
+
+.card:hover .layer-card:not(.icon-card i)
+{
+    transform: rotateY(180deg);
+    opacity:1;
+   
+}
+.icon-card
+{
+transition: background-color var(--animation-duration) ease;
+}
+.icon-card i
+{
+background-color: #000;
+padding: 10px;
+border-radius: 50%;
+color:#fff;
+
+}
+
+.icon-card i:hover 
+{
+    background-color: transparent;
+    border:1px solid #000;
+    color:#000;
+}
+
+
+
+/* *===========================Contact section================================== */
+
+.icons-contact 
+{
+    transition: background-color var(--animation-duration) ease;
+}
+
+
+
+
+.icons-contact i
+{
+    background-color: var(--bg-icons);
+    padding:20px;
+    border-radius: 50%;
+}
+
+.inner-contact:hover .icons-contact i
+{
+   background-color: #000;
+   color: #fff;
+}
+
+
+
+.form-control
+{
+    border:none;
+    background-color: var(--bg-section);
+}
+
+
+
+
+
+.form-control:focus 
+{
+    box-shadow: none;
+    background-color: var(--bg-section);
+}
+.btns
+{
+    transition: background-color var(--animation-duration) ease;
+}
+
+.btn-contact:hover
+{
+  background-color: transparent;
+  color:#000;
+}
